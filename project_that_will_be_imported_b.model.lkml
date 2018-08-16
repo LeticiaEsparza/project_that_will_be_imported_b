@@ -13,6 +13,7 @@ datagroup: project_that_will_be_imported_b_default_datagroup {
 
 persist_with: project_that_will_be_imported_b_default_datagroup
 
+
 explore: events {
   join: users {
     type: left_outer
@@ -74,6 +75,7 @@ explore: user_data {
     relationship: many_to_one
   }
 }
+explore: user_facts {}
 
 explore: users {}
 
