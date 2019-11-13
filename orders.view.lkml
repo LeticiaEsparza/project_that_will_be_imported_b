@@ -36,4 +36,10 @@ view: orders {
     type: count
     drill_fields: [id, users.first_name, users.last_name, users.id, order_items.count]
   }
+
+  set: orders_set {
+    fields: [
+      id, created_date, status
+    ]
+  }
 }

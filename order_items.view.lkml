@@ -42,4 +42,8 @@ view: order_items {
     type: count
     drill_fields: [id, inventory_items.id, orders.id]
   }
+
+  set: test {
+    fields: [id, inventory_item_id, order_id]
+  }
 }

@@ -83,10 +83,6 @@ view: user_facts {
       sql: ${TABLE}.created_at ;;
     }
 
-dimension: test {
-  type: number
-  sql: 1 ;;
-}
 
     set: detail {
       fields: [
